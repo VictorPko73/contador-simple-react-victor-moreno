@@ -1,31 +1,30 @@
 import React from "react";
-import Counter from "./card";
-
+import SimpleCounter from "./simpleCounter";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
-import SimpleCouter from "./card";
+
 
 //create your first component
 const Home = () => {
+	
 	return (
-		<div className="text-center">
-            
-
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-				<SimpleCouter/>
+		<div className="container">
+			<div className="row">
+            <div className="counterTarget col-sm-6 mx-auto" >
+					<h1>SIMPLE COUNTER</h1>
 				
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+					<h2 className="fs-1">⏱️</h2>
+				<div className="col-sm-6 mx-auto">
+					<SimpleCounter/>
+					
+				</div>
+				
+			</div>
+			</div>
 		</div>
+			
+
+		
 	);
 };
 

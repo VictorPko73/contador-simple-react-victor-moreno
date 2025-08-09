@@ -9,3 +9,28 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.counterTarget {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: bold;
+    background: radial-gradient(circle at center, #f7f5f5, #0e0e0e);
+    border-radius: 5%;
+    text-align: center;
+    justify-content: center;
+    margin: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 350px;
+    width: 500px;
+    
+   
+}
+#card {
+   
+    background: linear-gradient(to bottom, #1e3c01, #e1e9e9);
+    
+    
+    
+}
+
+
