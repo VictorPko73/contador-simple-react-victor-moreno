@@ -8,13 +8,13 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	
 	return (
-		<div className="container">
+		<div className="container ">
 			<div className="row">
-            <div className="counterTarget col-sm-6 mx-auto" >
+            <div className="counterTarget col-sm-12 mx-auto" >
 					<h1>SIMPLE COUNTER</h1>
 				
 					<h2 className="fs-1">⏱️</h2>
-				<div className="col-sm-6 mx-auto">
+				<div className="col-sm-12 mx-auto">
 					<SimpleCounter/>
 					
 				</div>
